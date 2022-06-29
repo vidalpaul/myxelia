@@ -31,3 +31,13 @@ export type GetTxInfoResponseDto = GenericResponseDto;
 export type PostSendTxRequestDto = GenericRequestDto;
 
 export type PostSendTxResponseDto = GenericResponseDto;
+
+export type PostCreateTxRequestDto = GenericRequestDto;
+
+export type PostCreateTxResponseDto = GenericResponseDto;
+
+export type PostSignTxRequestDto = GenericRequestDto;
+
+export type PostSignTxResponseDto = GenericResponseDto;
+
+export type Query = Record<string, string>;
