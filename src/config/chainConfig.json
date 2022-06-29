@@ -1,0 +1,151 @@
+{
+   "DOT": {
+      "symbol": "DOT",
+      "network": "Polkadot",
+      "subscanUrl": "https://polkadot.subscan.io",
+      "rpcUrls": ["wss://rpc.polkadot.io"],
+      "ss58Format": 0,
+      "precision": 10,
+      "reserve": 1.05
+   },
+   "WND": {
+      "symbol": "WND",
+      "network": "Westend",
+      "rpcUrls": ["wss://westend-rpc.polkadot.io"],
+      "subscanUrl": "https://westend.subscan.io",
+      "ss58Format": 42,
+      "precision": 10,
+      "reserve": 1.05
+   },
+   "KSM": {
+      "symbol": "KSM",
+      "network": "Kusama",
+      "rpcUrls": ["wss://kusama-rpc.polkadot.io"],
+      "subscanUrl": "https://kusama.subscan.io",
+      "ss58Format": 2,
+      "precision": 10,
+      "reserve": 0.0005
+   },
+   "ROC": {
+      "symbol": "ROC",
+      "network": "Rococo",
+      "rpcUrls": ["wss://rococo-rpc.polkadot.io"],
+      "subscanUrl": "https://rococo.subscan.io",
+      "ss58Format": 48,
+      "precision": 10,
+      "reserve": 1.05
+   },
+   "KMA": {
+      "symbol": "KMA",
+      "network": "Calamari",
+      "rpcUrls": [
+         "wss://ws.calamari.systems",
+         "wss://calamari.api.onfinality.io/public-ws",
+         "wss://calamari-rpc.dwellir.com'"
+      ],
+      "subscanUrl": "https://calamari.subscan.io",
+      "ss58Format": 78,
+      "precision": 12,
+      "reserve": 1.01
+   },
+   "DOL": {
+      "symbol": "DOL",
+      "network": "Dolphin",
+      "rpcUrls": ["wss://dolphin.api.onfinality.io/public-ws"],
+      "subscanUrl": "https://dolphin.subscan.io",
+      "ss58Format": 78,
+      "precision": 12,
+      "reserve": 1.01
+   },
+   "ASTR": {
+      "symbol": "ASTR",
+      "network": "Astar",
+      "rpcUrls": [
+         "wss://rpc.astar.network",
+         "wss://astar.api.onfinality.io/public-ws",
+         "wss://astar.public.blastapi.io"
+      ],
+      "subscanUrl": "https://astar.subscan.io",
+      "ss58Format": 5,
+      "precision": 18,
+      "reserve": 1.01
+   },
+   "SDN": {
+      "symbol": "SDN",
+      "network": "Shiden",
+      "rpcUrls": [
+         "wss://rpc.shiden.network",
+         "wss://shiden.api.onfinality.io/public-ws",
+         "wss://shiden-rpc.dwellir.com",
+         "wss://rpc.pinknode.io/shiden/explorer",
+         "wss://shiden.public.blastapi.io"
+      ],
+      "subscanUrl": "https://shiden.subscan.io",
+      "ss58Format": 5,
+      "precision": 18,
+      "reserve": 1.01
+   },
+   "MOVR": {
+      "symbol": "MOVR",
+      "network": "Moonriver",
+      "rpcUrls": [
+         "wss://moonriver.public.blastapi.io",
+         "https://moonriver.api.onfinality.io/public"
+      ],
+      "subscanUrl": "https://moonriver.subscan.io",
+      "ss58Format": 1285,
+      "precision": 18,
+      "reserve": 1.01
+   },
+   "GLMR": {
+      "symbol": "GLMR",
+      "network": "Moonbeam",
+      "rpcUrls": [
+         "wss://moonbeam.public.blastapi.io",
+         "https://moonbeam.api.onfinality.io/public"
+      ],
+      "subscanUrl": "https://moonbeam.subscan.io",
+      "ss58Format": 1284,
+      "precision": 18,
+      "reserve": 1.01
+   },
+   "EDG": {
+      "symbol": "EDG",
+      "network": "Edgeware",
+      "rpcUrls": ["wss://edgeware.api.onfinality.io"],
+      "subscanUrl": "https://edgeware.subscan.io",
+      "ss58Format": 7,
+      "precision": 18,
+      "reserve": 1.01
+   },
+   "PICA": {
+      "symbol": "PICA",
+      "network": "Picasso",
+      "rpcUrls": [
+         "wss://picasso-rpc.composable.finance",
+         "wss://picasso-rpc.dwellir.comedge"
+      ],
+      "subscanUrl": "https://picasso.subscan.io",
+      "ss58Format": 49,
+      "precision": 12,
+      "reserve": 1.01
+   },
+   "LAYR": {
+      "symbol": "LAYR",
+      "network": "Composable",
+      "rpcUrls": ["wss://rpc.composable.finance"],
+      "subscanUrl": "https://composable.subscan.io",
+      "ss58Format": 50,
+      "precision": 12,
+      "reserve": 1.01
+   },
+   "PDEX": {
+      "symbol": "PDEX",
+      "network": "Polkadex Mainnet",
+      "rpcUrls": ["wss://mainnet.polkadex.trade"],
+      "subscanUrl": "https://polkadex.subscan.io",
+      "ss58Format": 88,
+      "precision": 12,
+      "reserve": 1.01
+   }
+}
